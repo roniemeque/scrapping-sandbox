@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@antiadmin/anticaptchaofficial@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@antiadmin/anticaptchaofficial/-/anticaptchaofficial-1.0.9.tgz#2fab4db2da2d1e9dfe4639f20dd5ce2ff93a32ba"
+  integrity sha512-pJrnOSz8yPQFVw0lVj1VFzwK+DtOf7+GXbD1Y165r+lmNwBDb4SQ3T+Xp2fe4GT9yH+2XEXv+L/0EsyCbNGozg==
+  dependencies:
+    axios "^0.20.0"
+
 "@types/node@*":
   version "14.14.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.0.tgz#f1091b6ad5de18e8e91bdbd43ec63f13de372538"
@@ -18,6 +25,13 @@ agent-base@5:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-5.1.1.tgz#e8fb3f242959db44d63be665db7a8e739537a32c"
   integrity sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g==
+
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -113,6 +127,11 @@ find-up@^4.0.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+follow-redirects@^1.10.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 fs-constants@^1.0.0:
   version "1.0.0"
